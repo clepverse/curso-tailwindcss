@@ -546,6 +546,30 @@ Ensure the default browser behavior of the `hidden` attribute.
   z-index: 30;
 }
 
+.order-last {
+  order: 9999;
+}
+
+.order-5 {
+  order: 5;
+}
+
+.order-4 {
+  order: 4;
+}
+
+.order-3 {
+  order: 3;
+}
+
+.order-2 {
+  order: 2;
+}
+
+.order-first {
+  order: -9999;
+}
+
 .m-6 {
   margin: 1.5rem;
 }
@@ -568,6 +592,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .m-2 {
   margin: 0.5rem;
+}
+
+.m-auto {
+  margin: auto;
 }
 
 .mx-auto {
@@ -639,6 +667,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 5rem;
 }
 
+.flex-1 {
+  flex: 1 1 0%;
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -653,6 +685,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .flex-col-reverse {
   flex-direction: column-reverse;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
 }
 
 .overflow-auto {
@@ -821,6 +861,86 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(49 46 129 / var(--tw-bg-opacity));
 }
 
+.bg-red-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
+}
+
+.bg-red-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
+}
+
+.bg-red-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 28 28 / var(--tw-bg-opacity));
+}
+
+.bg-red-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(153 27 27 / var(--tw-bg-opacity));
+}
+
+.bg-red-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(127 29 29 / var(--tw-bg-opacity));
+}
+
+.bg-green-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 101 52 / var(--tw-bg-opacity));
+}
+
+.bg-purple-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(233 213 255 / var(--tw-bg-opacity));
+}
+
+.bg-purple-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(147 51 234 / var(--tw-bg-opacity));
+}
+
+.bg-purple-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(126 34 206 / var(--tw-bg-opacity));
+}
+
+.bg-purple-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 33 168 / var(--tw-bg-opacity));
+}
+
+.bg-purple-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(88 28 135 / var(--tw-bg-opacity));
+}
+
+.bg-fuchsia-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 208 254 / var(--tw-bg-opacity));
+}
+
+.bg-fuchsia-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(217 70 239 / var(--tw-bg-opacity));
+}
+
+.bg-fuchsia-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(192 38 211 / var(--tw-bg-opacity));
+}
+
+.bg-fuchsia-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(162 28 175 / var(--tw-bg-opacity));
+}
+
+.bg-fuchsia-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(134 25 143 / var(--tw-bg-opacity));
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -837,8 +957,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 1.25rem;
 }
 
+.p-8 {
+  padding: 2rem;
+}
+
 .text-center {
   text-align: center;
+}
+
+.align-bottom {
+  vertical-align: bottom;
 }
 
 .font-mono {
@@ -866,5 +994,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:bg-blue-400 {
     --tw-bg-opacity: 1;
     background-color: rgb(96 165 250 / var(--tw-bg-opacity));
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:order-last {
+    order: 9999;
   }
 }
