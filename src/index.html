@@ -4,10 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Curso Tailwindcss</title>
+    <title>Construção layout</title>
     <link rel="stylesheet" href="/dist/output.css" />
   </head>
   <body>
-    <h1 class="font-mono font-bold text-red-300 ml-20 text-xl">Hello World!</h1>
+    <div
+      class="container bg-red-300 mx-auto p-4 my-4 text-red-900 border-red-600 border-2"
+    >
+      <p class="font-mono font-bold uppercase">O texto do container</p>
+    </div>
+    <!--Exercicio 1-->
+    <div class="container bg-green-400 my-4 md:bg-blue-400">
+      <p class="font-mono font-bold uppercase">Exercício 1</p>
+    </div>
   </body>
 </html>
